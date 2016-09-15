@@ -1,4 +1,4 @@
-package moles.servise;
+package spring.servise;
 
 import org.springframework.stereotype.Service;
 
@@ -6,7 +6,7 @@ import java.math.BigInteger;
 import java.security.SecureRandom;
 
 /**
- * Created by moles on 27.07.2016.
+ * Created by spring on 27.07.2016.
  */
 @Service
 public class RandomServise {

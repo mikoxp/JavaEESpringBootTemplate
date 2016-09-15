@@ -1,13 +1,13 @@
-package moles.manager;
+package spring.manager;
 
-import moles.entities.Account;
-import moles.repositories.AccountRepository;
+import spring.entities.Account;
+import spring.repositories.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.encoding.Md5PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by moles on 13.07.2016.
+ * Created by spring on 13.07.2016.
  */
 @Service
 public class AccountManager {

@@ -1,4 +1,4 @@
-package moles;
+package spring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -11,7 +11,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @ComponentScan
 @EnableAutoConfiguration
 @SpringBootApplication
-@EnableJpaRepositories(basePackages = {"moles.repositories"})
+@EnableJpaRepositories(basePackages = {"spring.repositories"})
 public class Application extends SpringBootServletInitializer {
 
     @Override
