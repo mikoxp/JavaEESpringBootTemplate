@@ -1,11 +1,11 @@
-package moles.repositories;
+package spring.repositories;
 
-import moles.entities.Role;
+import spring.entities.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 /**
- * Created by moles on 25.07.2016.
+ * Created by spring on 25.07.2016.
  */
 @Repository
 public interface RoleRepository extends JpaRepository<Role, Integer> {

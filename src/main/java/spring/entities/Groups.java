@@ -1,10 +1,10 @@
-package moles.entities;
+package spring.entities;
 
 import javax.persistence.*;
 import java.util.List;
 
 /**
- * Created by moles on 25.07.2016.
+ * Created by spring on 25.07.2016.
  */
 @Entity
 @Table(name = "groups")

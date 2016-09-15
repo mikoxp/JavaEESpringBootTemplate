@@ -1,4 +1,4 @@
-package moles.servise;
+package spring.servise;
 
 import freemarker.template.Template;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +14,7 @@ import java.util.Map;
 import java.util.Properties;
 
 /**
- * Created by moles on 26.07.2016.
+ * Created by spring on 26.07.2016.
  */
 @Service
 public class MailsServise {

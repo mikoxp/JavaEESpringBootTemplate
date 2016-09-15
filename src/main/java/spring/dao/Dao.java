@@ -1,7 +1,7 @@
-package moles.dao;
+package spring.dao;
 
 /**
- * Created by moles on 28.07.2016.
+ * Created by spring on 28.07.2016.
  */
 public class Dao<T> {
     private T value;

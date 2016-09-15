@@ -1,4 +1,4 @@
-package moles.entities;
+package spring.entities;
 
 
 import org.springframework.security.core.GrantedAuthority;

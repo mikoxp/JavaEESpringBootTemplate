@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package moles.servise;
+package spring.servise;
 
 
-import moles.entities.Account;
-import moles.repositories.AccountRepository;
+import spring.entities.Account;
+import spring.repositories.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

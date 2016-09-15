@@ -1,7 +1,7 @@
-package moles.contorolers;
+package spring.contorolers;
 
-import moles.servise.MailsServise;
-import moles.servise.RandomServise;
+import spring.servise.MailsServise;
+import spring.servise.RandomServise;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,7 +1,7 @@
-package moles;
+package spring;
 
 /**
- * Created by moles on 08.08.2016.
+ * Created by spring on 08.08.2016.
  */
 
 import com.mangofactory.swagger.configuration.SpringSwaggerConfig;
