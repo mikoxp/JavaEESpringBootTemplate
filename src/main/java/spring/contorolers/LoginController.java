@@ -55,6 +55,15 @@ public class LoginController {
         }
         return model;
     }
+    /**
+     * @return index model
+     */
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public ModelAndView start() {
+        ModelAndView model = new ModelAndView();
+        model.setViewName("index");
+        return model;
+    }
 
 
 }
